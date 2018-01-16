@@ -11,16 +11,19 @@
 #import "CeshiCell.h"
 #import "ViewController.h"
 
+
+
 @interface ViewController ()<UICollectionViewDelegate,UICollectionViewDataSource,YSHWaterFallyoutDelegate>
 
 @property (weak, nonatomic) IBOutlet YSHWaterFallyout *waterFallyout;
-
 @property (weak, nonatomic) IBOutlet UICollectionView *collectionView;
 @property (nonatomic, strong) NSMutableArray<CellModel *> *images;
 
 @end
 
 @implementation ViewController
+
+
 - (NSMutableArray *)images {
     //从plist文件中取出字典数组，并封装成对象模型，存入模型数组中
     if (!_images) {

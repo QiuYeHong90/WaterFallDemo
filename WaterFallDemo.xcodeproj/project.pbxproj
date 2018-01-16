@@ -105,6 +105,7 @@
 				98B3B26CE3C992E7E76E6B8F /* Frameworks */,
 			);
 			sourceTree = "<group>";
+			usesTabs = 0;
 		};
 		048C7E931F616DD2003833A8 /* Products */ = {
 			isa = PBXGroup;
@@ -556,6 +557,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 8E5VX5BKY5;
 				INFOPLIST_FILE = WaterFallDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.shuhui.yeqiu.WaterFallDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -569,6 +571,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = 8E5VX5BKY5;
 				INFOPLIST_FILE = WaterFallDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.shuhui.yeqiu.WaterFallDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
